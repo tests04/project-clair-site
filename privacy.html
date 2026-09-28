@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Project Clair プライバシーポリシー</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 16px; line-height: 1.7; color: #222; }
+  h1 { font-size: 1.6em; }
+  h2 { font-size: 1.15em; margin-top: 2em; }
+  a { color: #1a5fb4; }
+</style>
+</head>
+<body>
+<h1>Project Clair プライバシーポリシー</h1>
+<p>最終更新日：2026年9月28日</p>
+
+<h2>対象</h2>
+<p>Project Clair（以下「本ツール」）は、開発者本人のみが個人で利用するツールです。第三者の Google アカウントのデータは扱いません。</p>
+
+<h2>取得するデータ</h2>
+<p>本ツールは、Google の OAuth 認証を通じて、本人の Gmail の受信トレイにある未読メールの件名・送信者・本文・受信日時を読み取ります（gmail.readonly 権限）。メールの送信・削除・変更は行いません。</p>
+
+<h2>データの利用目的</h2>
+<p>取得したメールの内容は、返信や対応が必要かどうかの判定、要約、期限の抽出に使い、本人用の ToDo 一覧を作るためだけに利用します。</p>
+
+<h2>データの保存場所と外部への送信</h2>
+<ul>
+  <li>取得したデータと処理結果は、本人が管理する PC 上にのみ保存します</li>
+  <li>要約はその PC 上で動くローカルの AI で行います</li>
+  <li>対応要否の判定のために、メールの本文を外部の判定サービス（TypeSafe AI 社の Jev）に送信します。送信前に、人名・電話番号・メールアドレスなどを記号に置き換えます</li>
+  <li>上記以外の第三者にデータを提供・販売することはありません。広告には利用しません</li>
+</ul>
+
+<h2>Google ユーザーデータの取り扱い</h2>
+<p>本ツールによる Google API から取得した情報の使用は、限定的な使用の要件を含む Google API サービスのユーザーデータに関するポリシーに準拠します。</p>
+
+<h2>データの削除</h2>
+<p>本人は、PC 上のデータベースを削除することで、いつでもデータを消去できます。Google アカウントの設定から、本ツールへのアクセス許可を取り消すこともできます。</p>
+</body>
+</html>
